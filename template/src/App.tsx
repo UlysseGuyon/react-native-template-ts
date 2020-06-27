@@ -5,7 +5,7 @@ class App extends React.Component {
   render () {
     return (
       <View style={styles.appBody}>
-        <Text>HelloWorld</Text>
+        <Text>Application ProjectName</Text>
       </View>
     );
   }
@@ -13,7 +13,9 @@ class App extends React.Component {
 
 const styles = StyleSheet.create({
   appBody: {
-    flex: 1
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 });
 

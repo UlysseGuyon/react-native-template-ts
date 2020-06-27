@@ -1,7 +1,6 @@
 {
   "name": "ProjectName",
   "version": "0.0.1",
-  "private": true,
   "scripts": {
     "start": "react-native start",
     "start:android": "react-native run-android",
@@ -10,6 +9,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "expo": "^38.0.3",
     "react": "16.8.6",
     "react-native": "0.60.3"
   },
